@@ -38,6 +38,13 @@ header nav ul li a {
     text-decoration: none; /*Decoração do texto (sublinhado) desabilitado (none)*/
     color: whitesmoke; /*Cor da Letra*/
 }
+/*Hover= permite que o elemento a qual está trabalhando tenha alguma ação quando passar o  mouse*/
+header nav ul li a:hover {
+    color: #50403e;
+    transition: 1s;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 
 /* Chamamos a primeira sessão para estilização.*/
 .sessão-1 {
@@ -58,21 +65,37 @@ header nav ul li a {
     background-color: rgba(255, 255, 255, 0.623); /*Cor de fundo*/
     border-radius: 7px; /*Arredondamento da borda*/
 }
+   
+.sessão-1 button:hover {
+     background-color: rgb(190, 180, 168);
+     transition: 1s;
+     color: brown;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     cursor: pointer;
+
+}
 
 /*Chamamos a Segunda sessão para a estilização.*/
 .sessão-2 {
     padding: 300px; /*Tamanho da sessão*/
     background-color: #aabfaa; /*Cor de fundo*/
     display: flex; /*Usada para deixar a sessão flex*/
-    justify-content: space-evenly; 
+    justify-content: center; 
     align-items: center; /*Alinhando os itens ao centro*/
 }
 
 /*Chamamos para a imagem da sessão 2 para estilização.*/
 .sessão-2 img {
-    width: 250px; /*Largura da imagem*/
+    width: 200px; /*Largura da imagem*/
     height: auto; /**/
 }
+.sessão-2 img:hover {
+    width: 210px;
+    transition: 0.8s;
+    cursor: pointer;
+}
+
+
 
 /*Chamamos o Subtítulo da sessão 2 para estilização.*/
 .sessão-2 h2 {
@@ -87,6 +110,8 @@ header nav ul li a {
     font-size: 18px; /*Tamanho da letra*/
     margin-top: 15px; /*espaçamento acima do parágrafo*/
 }
+
+
 /*Chamamos a terceira sessão para a estilização*/
 .sessão-3 {
     background-image: url(imagem/ai-generated-8541996_1280.jpg); /*Usada para habilitar uma imagem de fundo*/
@@ -144,4 +169,10 @@ footer nav ul li a {
     color: black; /*Cor da letra*/
     font-weight: 300; 
     font-family: Arial, Helvetica, sans-serif; /*Fonte da letra*/
+}
+/*Hover= permite que o elemento a qual está trabalhando tenha alguma ação quando passar o  mouse*/
+footer nav ul li a:hover {
+    color: #9c7e7b;
+    transition: 1s;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
