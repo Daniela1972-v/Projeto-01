@@ -41,7 +41,7 @@ header nav ul li a {
 /*Hover= permite que o elemento a qual está trabalhando tenha alguma ação quando passar o  mouse*/
 header nav ul li a:hover {
     color: #50403e;
-    transition: 1s;
+    transition: 0.5s;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -68,9 +68,8 @@ header nav ul li a:hover {
    
 .sessão-1 button:hover {
      background-color: rgb(190, 180, 168);
-     transition: 1s;
+     transition: 0.5s;
      color: brown;
-     font-family: Verdana, Geneva, Tahoma, sans-serif;
      cursor: pointer;
 
 }
@@ -172,7 +171,57 @@ footer nav ul li a {
 }
 /*Hover= permite que o elemento a qual está trabalhando tenha alguma ação quando passar o  mouse*/
 footer nav ul li a:hover {
-    color: #9c7e7b;
-    transition: 1s;
+    color: #50403e;
+    transition: 0.5s;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+footer i { /*Estilizando ícone*/
+    color: white; /*Cores do ícone*/
+    font-size: 40px; /*Tamanho do ícone*/
+    background-color: rgba(0, 0, 0, 0.144); /*Cor de fundo do elemento*/
+    padding: 10px; /*Respiro/preenchimento da cor de fundo*/
+    border-radius: 10px; /*Arredondamento da caixa*/
+}
+
+footer i:hover { /*Aplicando o efeito ao passar o mouse*/
+    background-color: rgba(10, 9, 9, 0.589); /*Cor de fundo alterada*/
+    transition: 0.5s; /*Transição do elemento*/
+}
+
+/*Estilização tela 2*/
+
+.sect1-tela2 {
+    background-image: url(imagem/chocolates-1737503_1280.jpg);
+    padding: 300px;
+    background-repeat: no-repeat;
+    background-position:bottom;
+    background-size: cover;
+          
+}
+
+
+.sect1-tela2 p {
+    font-size: 30px;
+    color: white;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.sect1-tela2 span {
+    color: rgb(189, 53, 53);
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.sect2-tela2 {
+    background-color: #856f6d;
+    padding: 300px;
+}
+
+.sect3-tela2 {
+    background-color: azure;
+    padding: 300px;
 }
