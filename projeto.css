@@ -49,7 +49,7 @@ header nav ul li a:hover {
 /* Chamamos a primeira sessão para estilização.*/
 .sessão-1 {
     background-image: url(imagem/ai-generated-8770645_1280.png); /*Usada para habilitar uma imagem de fundo*/
-    padding: 300px; /*Tamanho da sessão*/
+    padding: 250px; /*Tamanho da sessão*/
     background-repeat: no-repeat; /*Usada para não repetir a imagem na sessão.*/
     background-size: cover; /*Utilizada para que a imagem preencha todo espaço disponivel*/
     background-position: center; /*Deixar a imagem centralizada.*/
@@ -76,8 +76,8 @@ header nav ul li a:hover {
 
 /*Chamamos a Segunda sessão para a estilização.*/
 .sessão-2 {
-    padding: 300px; /*Tamanho da sessão*/
-    background-color: #aabfaa; /*Cor de fundo*/
+    padding: 250px; /*Tamanho da sessão*/
+    background-color: #796a69; /*Cor de fundo*/
     display: flex; /*Usada para deixar a sessão flex*/
     justify-content: center; 
     align-items: center; /*Alinhando os itens ao centro*/
@@ -115,7 +115,7 @@ header nav ul li a:hover {
 .sessão-3 {
     background-image: url(imagem/ai-generated-8541996_1280.jpg); /*Usada para habilitar uma imagem de fundo*/
     background-attachment: fixed; /*Deixar a imagem de fundo fixada*/
-    padding: 300px; /*Tamanho da sessão*/
+    padding: 250px; /*Tamanho da sessão*/
     background-repeat: no-repeat; /*Usada para não repetir a imagem na sessão.*/
     background-size: cover; /*Utilizada para que a imagem preencha todo espaço disponivel*/
     justify-content: center; /*Justificando o conteúdo ao centro*/
@@ -145,7 +145,7 @@ header nav ul li a:hover {
  /* Chamamos o footer para estilizar o rodapé da página. */
 footer {
     padding: 15px; /*Colocando um tamanho (Preenchimento) no rodapé*/
-    background-color: #d3ebc7; /*Cor de fundo*/
+    background-color: #a9b3a4; /*Cor de fundo*/
     display: flex; /*Tornando nosso Footer Flex - Deixando os itens lado a lado*/
     justify-content: space-evenly; /*Justificativa do conteúdo*/
     align-items: center; /*Alinhando os itens ao centro*/
@@ -179,7 +179,7 @@ footer nav ul li a:hover {
 
 footer i { /*Estilizando ícone*/
     color: white; /*Cores do ícone*/
-    font-size: 40px; /*Tamanho do ícone*/
+    font-size: 30px; /*Tamanho do ícone*/
     background-color: rgba(0, 0, 0, 0.144); /*Cor de fundo do elemento*/
     padding: 10px; /*Respiro/preenchimento da cor de fundo*/
     border-radius: 10px; /*Arredondamento da caixa*/
@@ -193,8 +193,8 @@ footer i:hover { /*Aplicando o efeito ao passar o mouse*/
 /*Estilização tela 2*/
 
 .sect1-tela2 {
-    background-image: url(imagem/chocolates-1737503_1280.jpg);
-    padding: 300px;
+    background-image: url(imagem/docinho.png);
+    padding: 250px;
     background-repeat: no-repeat;
     background-position:bottom;
     background-size: cover;
@@ -204,24 +204,150 @@ footer i:hover { /*Aplicando o efeito ao passar o mouse*/
 
 .sect1-tela2 p {
     font-size: 30px;
-    color: white;
+    color: rgb(19, 18, 18);
     font-weight: 600;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
 
 .sect1-tela2 span {
-    color: rgb(189, 53, 53);
+    color: rgb(182, 56, 56);
     font-weight: bold;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .sect2-tela2 {
-    background-color: #856f6d;
-    padding: 300px;
+    background: linear-gradient(200deg,#eccfcc 9.33%,#6a5191 100%);
+    padding: 130px;
 }
+
+/*div pai = Dentro dele existe 3 caixas*/
+.div-pai{
+    display: flex; /*Tornando os itens flex, deixando as caixas lado a lado**/
+    justify-content: center; /*Justificando os itens ao centro*/
+    margin-bottom: 40px;
+
+}
+
+/*estilização das caixas (div filho)*/
+.div-pai div{
+    width: 200px; /*Largura da Ciaxa*/
+    height: 280px; /*Altura da caixa*/
+    background-color: rgb(82, 72, 72); /*cor de fundo*/
+    margin-right: 30px; /*Espaçamento entre as caixas*/
+    border-radius: 15px;
+    
+}
+
+/*estilização da div (filho 1 )*/
+.div-filho1 {
+    background-image: url(imagem/brownies.jpg); /*colocamos uma imagem dentro caixa*/
+    background-size: cover; /*Utilizada para que a imagem preencha todo espaço disponivel*/
+    background-position: center; /*Deixar a imagem centralizada*/
+    background-repeat: no-repeat; /*utilizada para não repetir a imagem*/
+
+}
+
+.div-filho2 {
+    background-image: url(imagem/bolinhos.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.div-filho3 {
+    background-image: url(imagem/biscoito.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.div-filho4 {
+    background-image: url(imagem/strawberry-8214486_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.div-filho5 {
+    background-image: url(imagem/doce\ de\ festa.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.div-filho6 {
+    background-image: url(imagem/cheesecake-3368824_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+/*Hover= permite que o elemento a qual está trabalhando tenha alguma ação quando passar o  mouse*/
+.div-filho1:hover {
+    width: 220px;
+    height: 300px;
+    transition: 0.8s;
+    border-radius: 20px;
+
+    
+}
+
+.div-filho2:hover {
+    width: 220px;
+    height: 300px;
+    transition: 0.8s;
+    border-radius: 20px;
+}
+
+.div-filho3:hover {
+    width: 220px;
+    height: 300px;
+    transition: 0.8s;
+    border-radius: 20px;
+}
+
+.div-filho4:hover {
+    width: 220px;
+    height: 300px;
+    transition: 0.8s;
+    border-radius: 20px;
+}
+
+.div-filho5:hover {
+    width: 220px;
+    height: 300px;
+    transition: 0.8s;
+    border-radius: 20px;
+}
+
+.div-filho6:hover {
+    width: 220px;
+    height: 300px;
+    transition: 0.8s;
+    border-radius: 20px;
+}
+.div-pai2 {
+    display: flex; /*Tornando os itens flex, deixando as caixas lado a lado**/
+    justify-content: center; /*Justificando os itens ao centro*/
+    
+}
+
+.div-pai2 div {
+
+    width: 200px; /*Largura da Ciaxa*/
+    height: 280px; /*Altura da caixa*/
+    background-color: rgb(82, 72, 72); /*cor de fundo*/
+    margin-right: 30px; /*Espaçamento entre as caixas*/
+    border-radius: 15px;
+
+}
+
+
 
 .sect3-tela2 {
     background-color: azure;
-    padding: 300px;
+    padding: 250px;
 }
+
