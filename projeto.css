@@ -58,6 +58,10 @@ header nav ul li a:hover {
     align-items: center; /*Alinhando os itens ao centro*/
 }
 
+#doces {
+
+}
+
 /*Chamamos o Botão da sessão 1 para a estilização.*/
 .sessão-1 button {
     width: 150px; /*Largura do botão*/
@@ -383,4 +387,96 @@ footer i:hover { /*Aplicando o efeito ao passar o mouse*/
 .logo img {
     width: 80px; /*Largura da imagem*/
     height: auto; /*Altura da imagem*/
+}
+
+.logo .line {
+    width: 80px; /*Largura da linha*/
+    height: 1.5px; /*Altura da linha*/
+    background-color: #dbdada; /*Cor da linha*/
+    margin-top: 12px; /*Distancia entre a linha e ícone*/
+
+}
+
+.icones a {
+    text-decoration: none; /*Aqui  estamos removendo o estilo  padrão da âncora*/
+    color: white; /*Cor da âncora*/
+
+}
+
+.icones a i { /*Acessando o ícone*/
+    background-color: rgb(109, 66, 66); /*atribuindo uma cor de fundo aos nossos ícones*/
+    padding: 7px; /*Aplicando um respiro (padding) dentro dos ícones*/
+    font-size: 35px; /*Tamanhos dos ícones*/
+    border-radius: 10px; /*Borda dos ícones*/
+
+}
+
+.icones h2 { /*estilizando o título do rodapé*/
+    font-size: 30px; /*Tamanho da letra*/
+    color: white; /*Cor da letra*/
+    margin-bottom: 20px; /*margin inferior em relação o texto*/
+
+
+}
+
+.icones i:hover {
+    background-color: rgb(190, 180, 168);
+    transition: 0.5s;
+    
+     
+}
+
+.rodap-tela1 {
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.logo1 img {
+    width: 80px;
+    height: auto;
+}
+
+
+.logo1 .line1 {
+    width: 80px; /*Largura da linha*/
+    height: 1.5px; /*Altura da linha*/
+    background-color: #dbdada; /*Cor da linha*/
+    margin-top: 12px;
+}
+.rodap-redes a {
+    text-decoration: none; /*Aqui  estamos removendo o estilo  padrão da âncora*/
+    color: white; /*Cor da âncora*/
+   
+}
+
+.rodap-redes a i {  /*Acessando o ícone*/
+    background-color: rgb(109, 66, 66); /*atribuindo uma cor de fundo aos nossos ícones*/
+    padding: 7px; /*Aplicando um respiro (padding) dentro dos ícones*/
+    font-size: 35px; /*Tamanhos dos ícones*/
+    border-radius: 10px; /*Borda dos ícones*/
+}
+
+.rodap-redes i {
+    background-color: rgb(109, 66, 66); /*atribuindo uma cor de fundo aos nossos ícones*/
+    padding: 7px; /*Aplicando um respiro (padding) dentro dos ícones*/
+    font-size: 35px; /*Tamanhos dos ícones*/
+    border-radius: 10px; /*Borda dos ícones*/
+}
+
+.rodap-redes h2 {
+    font-size: 30px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.rodap-redes i:hover {
+    background-color: rgb(190, 180, 168);
+    transition: 0.5s;
+}
+
+html {
+    scroll-behavior: smooth;
 }
